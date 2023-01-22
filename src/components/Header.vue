@@ -3,28 +3,33 @@
 </script>
 
 <template>
-  <a class="header" href="/">
-    <img id="diary" src="../assets/diary.png" alt="">
-    <img id="logo" src="../assets/memo-logo.png" alt="">
-  </a>  
+  <div id="header">
+    <a id="hook" href="/">
+      <img id="diary" src="../assets/diary.png" alt="">
+      <img id="logo" src="../assets/memo-logo.png" alt="">
+    </a>  
+  </div>
+
 </template>
 
 <style scoped>
-.header {
+#header {
   display: flex;
-  justify-content: left;
-  align-items: initial;
-  max-width: 630px;
-  margin-top: 35px;
-  margin-left: 20px;
+  flex-direction: row;
+  height: auto;
+  width: 500px;
+}
+#hook {
+  display: flex;
+  align-items: flex-start;
 }
 #diary {
-  width: 25%;
-  height: 25%;
+  height: auto;
+  width: 30%;
 }
 #logo {
-  width: 40%;
-  height: 40%;
+  height: auto;
+  width: 45%;
   margin-left: 25px;
 }
 </style>
