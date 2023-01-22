@@ -71,7 +71,7 @@
     height: 110px;
     width: 490px;
     border-radius: 10px;
-    margin-inline: 10px;
+    margin-inline: 95px;
     padding-inline: 8px;
     justify-content: space-between;
     margin-bottom: 27px;

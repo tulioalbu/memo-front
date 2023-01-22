@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: row;
   height: auto;
+  margin-left: 80px;
   width: 500px;
 }
 #hook {
