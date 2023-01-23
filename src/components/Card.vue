@@ -29,13 +29,12 @@
 
       async deleteContact(id) {
         let w = window.confirm("Você realmente deseja deletar este contato?");
-
         if (w) {
           await axios.delete(`http://localhost:8080/contacts/${id}`)
+          alert("Contato deletado com sucesso!")
           window.location.reload();
         }
       },
-
     },
   }
   
